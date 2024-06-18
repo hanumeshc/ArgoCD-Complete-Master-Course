@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: sync-options-retry
-  namespace: argocd
+  namespace: argoin
 spec:
   destination:
     name: ''
